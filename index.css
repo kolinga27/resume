@@ -1,0 +1,298 @@
+nav {
+    float: right;
+    background-color: transparent;
+  }
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  
+  nav li a:hover {
+    color: #ff0000;
+    transition: 3s;
+  }
+  
+  nav li a.active {
+    background-color: #10e217;
+    color: rgb(36, 3, 3);
+  }
+
+  
+body h1{
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.0;
+    margin: 0;
+    padding: 1%;
+}
+
+body h1:hover{
+    color: #ff0000;
+    transition: 1s;
+
+}
+  body {
+    background: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );;
+    overflow: scroll;
+    
+  }
+  
+
+
+
+  
+
+
+ .  .container{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    float: middle;
+    border-radius: 60%;
+    position: absolute;
+    transition: all 1s ease-in-out;
+  }
+
+  .curved-box:hover {
+    box-shadow: 0 0 10px rgba(39, 122, 204, 0.5);
+    border-radius: 60px;
+    transition: all 1s ease-in-out;
+  }
+  .column {
+    position: center;
+    background: fixed;
+    width: 33.333%;
+    max-width: 80%;
+    float: center;
+    width: 100%;
+    margin: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+  }
+  .column p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+  }
+
+  .popup {
+    transform: translateY(-10px); /* moves the box upward by 10px */
+  }
+  
+
+.container h2 {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 60%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+}
+
+
+
+  .imag{
+
+      display: block;
+      margin: auto;
+      width: 200px;
+      height: 200px;
+      padding-top: 100px;
+
+      top: 0;
+      bottom: 0;
+    
+    border-radius: 200px;
+    image-rendering: auto;
+    transform: translate(-40%, -50%);
+
+
+  }
+  
+
+  #spinning-image {
+    /* Rotate the image along the X, Y, and Z axes */
+    transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg);
+  
+    /* Create a spinning animation that repeats indefinitely */
+    animation: spin 6s linear infinite;
+ 
+  }
+  
+  @keyframes spin {
+    from {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+      }
+    to {
+        transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+      }
+  }
+  
+
+  .social-icons {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .social-icons img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    margin: 8px;
+  }
+  
+
+
+
+
+ 
+ 
+  .questionnaire {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: gradient;
+    text-align: center;
+
+  }
+
+  .questionnaire form {
+    display: inline-block;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .questionnaire label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+
+  .questionnaire input[type="text"],
+  .questionnaire textarea {
+    width: 100%;
+    padding: 0.5em;
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+
+
+  }
+
+  .questionnaire textarea {
+    height: 11em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid rgb(255, 251, 251);
+
+    background-color:transparent;
+    font-size: 16px;
+  }
+
+  .questionnaire input[type="submit"] {
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    border: none;
+    border-radius: 0.25em;
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .questionnaire input[type="submit"]:hover,
+  .questionnaire input[type="submit"]:focus {
+    color: #f30909;
+  }
+
+
+.intro{
+  position: center;
+  margin: auto;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 50px;
+}
+
+
+
+#spinning-images {
+  /* Rotate the image along the X, Y, and Z axes */
+  transform: rotateX(-45deg) rotateY(-45deg) rotateZ(-45deg);
+
+  /* Create a spinning animation that repeats indefinitely */
+  animation: spin 14s linear infinite;
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+}
+
+
